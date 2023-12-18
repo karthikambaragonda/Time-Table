@@ -1,2 +1,2 @@
 Time Tables for CS & AI<br>
-https://karthikambaragonda.github.io/f2/
+https://karthikambaragonda.github.io/Time-Table/
