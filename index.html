@@ -1,16 +1,18 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSAI TT</title>
+     
     <style>
       body {
         margin: 0;
         font-size: large;
         font-family: "Segoe UI", Arial, sans-serif;
         user-select: none;
-        overflow-y: hidden;
+        
       }
 
       ul {
@@ -91,6 +93,7 @@
         color: white;
         text-align: center;
       }
+      
       @media screen and (min-width: 600px) {
         li {
           width: 100px;
@@ -99,13 +102,20 @@
           padding: 10px 22px;
         }
       }
+      .right{
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        color:yellow;
+      }
     </style>
   </head>
   <body>
     <div class="container">
       <div class="top">
         <img src=".\source\img1.png" draggable="false" />
-        <div class="ttlab-cont">
+        <span class="right">Any Queries&nbsp;<a href="mailto:ambaragondakarthik@gmail.com" style="color:yellow">Contact</a></span>
+        <div>
           <span class="ttlab">
             <h5>
               <b>
@@ -115,6 +125,7 @@
               </b>
             </h5>
           </span>
+          
         </div>
         <ul>
           <li>
@@ -157,5 +168,6 @@
       </div>
     </div>
     <script src=".\source\3cse\index.js"></script>
+    
   </body>
 </html>
